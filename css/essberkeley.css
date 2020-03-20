@@ -1,0 +1,121 @@
+
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed';
+
+.center-text {
+	text-align: center;
+}
+
+html {
+	font-size: 16px;
+	font-family: "Roboto Condensed", "Helvetica", "Arial", sans-serif;
+	font-weight: 500;
+	color: #555;
+}
+
+body {
+	font-size: 16px;
+	font-family: "Roboto Condensed", "Helvetica", "Arial", sans-serif;
+	font-weight: 500;
+  padding-top: 50px;
+}
+
+blockquote {
+	font-size: 16px;
+}
+
+body.home {
+  padding-top: 0;
+}
+
+.navbar {
+  margin: 0;
+  background-color: #333;
+}
+
+body.home .navbar {
+  background-color: rgba(8,8,8,.5);
+}
+
+.splash {
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+	color: white;
+	text-align: center;
+  height: 100vh;
+}
+
+.splashImg {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+
+.splash .text {
+  position: relative;
+  top: 55%;
+}
+
+@media (max-height: 500px) and (max-width: 800px) {
+  .splash .text {
+    top: 30%;
+  }
+}
+
+.splash h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.splash h2 {
+  font-size: 2rem;
+}
+
+div.mainBody {
+  background-color: white;
+}
+
+footer {
+  background-color: #272727;
+}
+
+footer a {
+  color: white;
+}
+
+footer div div div {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.homeRow {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+div.gallery a {
+  padding: 0 15px;
+}
+
+.catering img,
+.grazing-boards img {
+  margin: 0 0 1rem 0;
+}
+
+a:hover {
+  color: #AFCEE9;
+  text-decoration: none;
+}
+
+.testimonialSource {
+  text-align: right;
+  font-style: italic;
+}
+
+#familyPic {
+  width: 170px;
+  padding-bottom: 2rem;
+}
+
+
